@@ -63,11 +63,6 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 Должно вывести `True`.
 
-### Установка (готовый установщик)
-
-Скачайте последнюю версию установщика: [ErythroFlowAI_Setup.exe](https://github.com/AlexanderSIv/ErythroFlowAI/releases/latest)
-
-*Установщик не требует наличия Python, CUDA Toolkit или интернета. Достаточно драйвера NVIDIA.*
 
 ### 2. Остальные зависимости
 
@@ -81,6 +76,12 @@ pip install -r requirements.txt
 Их можно получить у автора или на Hugging Face по [ссылке](https://huggingface.co/AlexanderIvS/ErythroFlowAI_models).
 
 >Для установки CPU версии вместо шага 1 введите команду `pip install torch torchvision`. 
+
+## Установка (готовый установщик)
+
+Скачайте последнюю версию установщика: [ErythroFlowAI_Setup.exe](https://github.com/AlexanderSIv/ErythroFlowAI/releases/latest)
+
+*Установщик не требует наличия Python, CUDA Toolkit или интернета. Достаточно драйвера NVIDIA.*
 
 ## Запуск
 
