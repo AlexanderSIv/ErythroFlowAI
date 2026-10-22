@@ -63,6 +63,12 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 Должно вывести `True`.
 
+### Установка (готовый установщик)
+
+Скачайте последнюю версию установщика: [ErythroFlowAI_Setup.exe](https://github.com/AlexanderSIv/ErythroFlowAI/releases/latest)
+
+*Установщик не требует наличия Python, CUDA Toolkit или интернета. Достаточно драйвера NVIDIA.*
+
 ### 2. Остальные зависимости
 
 ```bash
